@@ -1,0 +1,130 @@
+
+.body{
+  display: inline-block;
+  justify-content: space-around;
+  padding-left: 40px;
+}
+.topnav {
+    display: flex;
+    justify-content: space-between;
+      background-color: #F9E7F5;
+      overflow: hidden;
+    }
+  /* Navigation Bar*/
+    nav{
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    img{
+         height: 108px;
+         width: 70px;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+      font-size: 17px;
+      padding-left: 30px;
+    }
+  
+    h1{
+      padding-top: 40px;
+      color: #211664;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+    }
+    .icons{
+      display: flex;
+      height: 20px;
+    }
+    .main{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .header p{
+        display: flex;
+        justify-content: center;
+        color:   black;
+        font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold'; 
+        font-weight: bold;
+        font-size: xx-large;
+    }
+    .Introduction{
+    font-weight: bold;
+    font-size: x-large;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+
+    .skills{
+    padding-left: 150px;
+    font-weight: bold;
+    font-size: xx-large;
+    }
+
+    .imagey{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .call-icon{
+        width: 100px;
+        display: flex;
+
+    }
+    .call-icon>img{
+        width: 30px;
+        height: 30px;
+        padding-top: 10px;
+    }
+    .email-icon{
+        width: 700px;
+        display: flex;
+        justify-content: center;
+    }
+    .email-icon>img{
+        width: 30px;
+        height: 30px;
+        padding-top: 10px;
+
+    }
+    .tech-skills{
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+
+  .Twitter-icon>img{
+    width: 30px;
+        height: 30px;
+        padding-right: 5px;
+        padding-bottom: 20px;
+  }  
+  .instagram-icon>img{
+    width: 40px;
+    height: 40px;
+    padding-bottom: 20px;
+
+  }
+  .linkedin-icon>img{
+    width: 40px;
+        height: 40px;
+        padding-bottom: 20px;
+
+  }
+  .facebook-icon>img{
+    width: 30px;
+        height: 30px;
+        padding-right: 5px;
+  }
+
+  .social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 900px; 
+  }
+  

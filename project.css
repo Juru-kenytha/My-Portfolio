@@ -1,0 +1,32 @@
+/*nav css*/
+.body{
+    display: inline-block;
+    justify-content: space-around;
+    padding-left: 40px;
+  }
+  .topnav {
+      display: flex;
+      justify-content: space-between;
+        background-color: #F9E7F5;
+        overflow: hidden;
+      }
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  img{
+       height: 108px;
+       width: 70px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding-left: 30px;
+  }
+  /* main content*/
+
+ 

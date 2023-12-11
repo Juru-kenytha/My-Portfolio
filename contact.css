@@ -1,0 +1,123 @@
+ /* Navigation Bar*/
+
+ .topnav {
+    display: flex;
+    justify-content: space-between;
+      background-color: white;
+      overflow: hidden;
+    }
+    nav{
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    img{
+         height: 108px;
+         width: 70px;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+      font-size: 17px;
+      padding-left: 30px;
+    }
+  
+    h1{
+      padding-top: 40px;
+      color: #211664;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+    }
+    .icons{
+      display: flex;
+      height: 20px;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+  
+      .header p{
+          display: flex;
+          justify-content: center;
+          color:   black;
+          font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold'; 
+          font-weight: bolder;
+          font-size: xx-large;
+      }
+       
+      body{
+        background-color: #F9E7F5;
+      }
+      .contact-container{
+          display: flex;
+          justify-content: space-evenly;
+          margin-left: 60px;
+          max-width: 900px;
+          background-color: #fff;
+          height: 70vh;
+          border-radius: 20px;
+      }
+  
+      .imagey{
+          margin-top: 30px;
+      }
+  
+  .call-icon, .email-icon{
+      display: flex;
+      gap: 20px;
+      margin-bottom: 15px;
+      
+  }
+      .call-icon img, .email-icon img{
+          width: 30px;
+          height: 30px;
+      }
+      
+     
+      .textarea{
+        align-content: flex-end;
+      }
+  
+      .home-scl a {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+  
+      }
+  
+      input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #ee6dd2;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #eca0db;
+        }
+        
+        .container {
+          background-color:white;
+          padding: 20px;
+          margin: 10px;
+          width: 400px;
+        }
+  
